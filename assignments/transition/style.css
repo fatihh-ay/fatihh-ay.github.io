@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: xx-large;
+}
+.div1 {
+  background-color: gray;
+  width: 10rem;
+  height: 12rem;
+  position: relative;
+}
+.div2 {
+  background-color: darkorange;
+  position: absolute;
+  top: 0;
+  width: 2rem;
+  height: 12rem;
+}
+#ilk {
+  background-color: rgb(80, 53, 20);
+  height: 2rem;
+}
+#ilk i {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
+.div3 {
+  background-color: darkorange;
+  position: absolute;
+  height: 12rem;
+  width: 8rem;
+  display: none;
+}
+#ikinci {
+  background-color: rgb(80, 53, 20);
+  height: 2rem;
+  color: white;
+  text-align: center;
+  padding: 14px;
+}
+.div3 i {
+  color: black;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+ul {
+  list-style-type: none;
+  position: absolute;
+  top: 4rem;
+  left: 2rem;
+}
+.div2:hover ~ .div3 {
+  display: inline-block;
+}

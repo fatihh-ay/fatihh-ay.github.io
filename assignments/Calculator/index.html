@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Helvetica Neue", sans-serif;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .container {
+        background: black;
+        border-radius: 50px;
+        color: white;
+        height: 840px;
+        width: 500px;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+      }
+      .calc {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        padding: 20px;
+        margin-top: 16.3rem;
+        font-size: 45px;
+      }
+      .parca {
+        background: #333;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+      .parca1,
+      .parca2,
+      .parca3 {
+        background: #a5a5a5;
+        color: black;
+      }
+      .parca4,
+      .parca8,
+      .parca16,
+      .parca12 {
+        background: #f1a33c;
+      }
+      .parca17 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        width: 220px;
+        border-radius: 50px;
+      }
+      .parca:hover {
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calc">
+        <div class="parca parca1">AC</div>
+        <div class="parca parca2">±</div>
+        <div class="parca parca3">%</div>
+        <div class="parca parca4">÷</div>
+        <div class="parca parca5">7</div>
+        <div class="parca parca6">8</div>
+        <div class="parca parca7">9</div>
+        <div class="parca parca8">x</div>
+        <div class="parca parca9">4</div>
+        <div class="parca parca10">5</div>
+        <div class="parca parca11">6</div>
+        <div class="parca parca12">-</div>
+        <div class="parca parca13">1</div>
+        <div class="parca parca14">2</div>
+        <div class="parca parca15">3</div>
+        <div class="parca parca16">+</div>
+        <div class="parca parca17">0</div>
+        <!-- <div class="parca parca18">18</div> -->
+        <div class="parca parca19">.</div>
+        <div class="parca parca20">=</div>
+      </div>
+    </div>
+  </body>
+</html>

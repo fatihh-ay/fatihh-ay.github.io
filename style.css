@@ -1,0 +1,17 @@
+*{
+    font-size: x-large;
+    background-color: rgb(199, 177, 137);
+}
+.div1{
+    margin: 2rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(54, 35, 9);
+}
+a:hover{
+color: rgb(158, 89, 46);
+}
+h2{
+    margin-bottom: 1.5rem;
+}
