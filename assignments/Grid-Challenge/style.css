@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: 320px 320px 320px 250px;
+  grid-template-rows: 240px 540px 900px 220px;
+  gap: 1.4rem;
+  margin: 1rem;
+}
+.box {
+  background-color: rgb(68, 68, 245);
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+}
+.box1 {
+  grid-column: span 4;
+}
+.box5 {
+  grid-row: span 2;
+}
+.box6 {
+  grid-column: span 3;
+}
+.box7 {
+  grid-column: span 4;
+}
