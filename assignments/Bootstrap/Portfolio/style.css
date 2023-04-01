@@ -1,3 +1,13 @@
-a{
+/*! ************ NAVBAR ************* */
+.navbar-nav a{
     color: black !important;
+    margin: 10px;
+    transition: all 0.6s;
 }
+.navbar-nav a:hover i,
+.navbar-nav a:hover {
+  background-color: rgba(134, 1, 116, 0.849);
+  color: white !important;
+  border-radius: 1rem;
+}
+
