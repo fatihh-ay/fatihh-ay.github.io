@@ -1,3 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p{
+  color: rgb(144, 144, 144);
+}
+
 /*! ************ NAVBAR ************* */
 .navbar-nav a{
     color: black !important;
@@ -10,4 +19,133 @@
   color: white !important;
   border-radius: 1rem;
 }
+
+
+/*! ************* BANNER ********** */
+.bg-image{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#yazi{
+  /* background-color: aqua; */
+  text-shadow: 2px 2px 4px rgba(0,0,0,1);
+  text-align: center;
+}
+.btn-dark{
+  border-radius: 30px;
+}
+.btn:hover .btn-dark{
+  cursor: pointer;
+  background-color:#860174d8;
+}
+/*! *********** MAIN **************** */
+.main{
+  text-align: center;
+}
+
+/** ********** ABOUT *************** */
+.main{
+  margin-top: 4.5rem;
+}
+#about {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  #about {
+    min-width: 50%;
+  }
+}
+.icons{
+  margin-top: 3rem;
+}
+#facebook{
+  padding:7px ;
+}
+.icons a{
+  padding: 14px;
+  border: solid 1px rgb(144, 144, 144);
+  border-radius: 50px;
+  margin: 0.5rem;
+}
+
+/** ********** SERVICE *************** */
+#service{
+  margin-top: 12rem;
+}
+.card{
+  margin: 1rem;
+  padding: 2rem;
+  border: 1px solid rgb(144, 144, 144);
+  border-radius: 20px;
+}
+.card i{
+  font-size: 3rem;
+  color: rgb(144, 144, 144);
+}
+.card h5{
+  padding: 10px;
+  width: 9rem;
+  margin: 20px auto;
+  font-weight: 400;
+  border-bottom: 3px solid #860174d8;
+}
+
+/** ********** CUSTOMER *************** */
+#customer{
+  margin-top: 5rem;
+  background-color: rgb(211, 211, 211);
+  padding: 3rem;
+}
+.cust1{
+  margin-bottom: 3rem;
+}
+.cust2 img{
+  border-radius: 50px;
+  margin-bottom: 1rem;
+}
+#customer h2, #reference h2{
+  letter-spacing: 6px;
+  font-weight: 400;
+}
+
+/** ********** REFERENCE *************** */
+#reference li{
+  display: inline-block;
+  margin: 1rem; 
+}
+#reference li a{
+  text-decoration: none;
+  color: #860174d8; 
+}
+#reference li:nth-child(1){
+  background-color:#860174d8 ;
+  border-radius: 50px;
+  width: 70px;
+  padding: 10px;
+}
+/* #reference .card{
+  background-color: aqua;
+  position: relative;
+  padding: 0;
+  border: none;
+  
+}
+#reference .card h3{
+  display: flex;
+  z-index: -1;
+}
+#reference .card img{
+  border-radius: 10px; 
+} */
+
+
+
+
 
