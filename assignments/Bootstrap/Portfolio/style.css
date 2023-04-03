@@ -109,7 +109,7 @@ p{
   border-radius: 50px;
   margin-bottom: 1rem;
 }
-#customer h2, #reference h2{
+#customer h2, #reference h2, #contact h2{
   letter-spacing: 6px;
   font-weight: 400;
 }
