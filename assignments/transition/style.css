@@ -54,4 +54,5 @@ ul {
 }
 .div2:hover ~ .div3 {
   display: inline-block;
+  transition: all 1s;
 }
