@@ -7,7 +7,7 @@ p{
   color: rgb(144, 144, 144);
 }
 
-/*! ************ NAVBAR ************* */
+/*! ******************* NAVBAR ****************** */
 .navbar-nav a{
     color: black !important;
     margin: 10px;
@@ -21,7 +21,7 @@ p{
 }
 
 
-/*! ************* BANNER ********** */
+/*! ******************** BANNER ***************** */
 .bg-image{
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,7 +32,6 @@ p{
   justify-content: center;
 }
 #yazi{
-  /* background-color: aqua; */
   text-shadow: 2px 2px 4px rgba(0,0,0,1);
   text-align: center;
 }
@@ -43,12 +42,12 @@ p{
   cursor: pointer;
   background-color:#860174d8;
 }
-/*! *********** MAIN **************** */
+/*! ********************** MAIN ******************* */
 .main{
   text-align: center;
 }
 
-/** ********** ABOUT *************** */
+/** ********************** ABOUT ****************** */
 .main{
   margin-top: 4.5rem;
 }
@@ -75,7 +74,7 @@ p{
   margin: 0.5rem;
 }
 
-/** ********** SERVICE *************** */
+/** ********************** SERVICE ********************** */
 #service{
   margin-top: 12rem;
 }
@@ -97,7 +96,7 @@ p{
   border-bottom: 3px solid #860174d8;
 }
 
-/** ********** CUSTOMER *************** */
+/** ********************** CUSTOMER ******************* */
 #customer{
   margin-top: 5rem;
   background-color: rgb(211, 211, 211);
@@ -115,7 +114,7 @@ p{
   font-weight: 400;
 }
 
-/** ********** REFERENCE *************** */
+/** ********************* REFERENCE ********************* */
 #reference li{
   display: inline-block;
   margin: 1rem; 
@@ -130,22 +129,69 @@ p{
   width: 70px;
   padding: 10px;
 }
-/* #reference .card{
-  background-color: aqua;
-  position: relative;
+.ref{
   padding: 0;
-  border: none;
-  
+  border-radius: 1px;
 }
-#reference .card h3{
-  display: flex;
+.ref img{
+  border-radius: 20px;
+}
+.ref h5{
+  color: white;
+  display: none;
+}
+.ref:hover h5{
+  display: block;
+}
+.ref:hover img{
   z-index: -1;
 }
-#reference .card img{
-  border-radius: 10px; 
-} */
-
-
+.ref:hover{
+  background-color: rgba(0, 0, 0, 0.685);
+  transition: 0.4s ease-in-out;
+}
+/** ********************* CONTACT ***************************** */
+#contact{
+  background-color:rgb(211, 211, 211);
+}
+#contact a{
+  text-decoration: none;
+  color: rgb(144, 144, 144);
+}
+form input{
+  width: 100%;
+  height: 3rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 15px ;
+}
+form button{
+  border: 1px solid white;
+  background-color: rgb(63, 61, 61);
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin-bottom: 5rem;
+}
+form button:hover{
+  background-color: rgba(134, 1, 116, 0.849);
+}
+/*! ********************** BUTTONS-FIXED ********************** */
+.button-fixed a{
+background-color: rgba(134, 1, 116, 0.849);
+padding: 1rem;
+}
+#b2{
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  color: white;
+}
+#b1{
+  position: fixed;
+  bottom: 5rem;
+  right: 1rem;
+  color: white;
+}
 
 
 

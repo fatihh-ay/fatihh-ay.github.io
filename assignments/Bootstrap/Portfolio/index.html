@@ -1,350 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <!--! HEADER--NAVBAR -->
-    <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
-      <div class="container d-flex">
-        <a class="navbar-brand" style="border-radius: 30px" href="index.html"
-          ><img src="./img/logo.png" alt=""
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          style="border: none"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNavAltMarkup"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">
-                <span
-                  ><i class="fa-solid fa-house" style="color: #63268c"></i
-                ></span>
-                <span>Home</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about"
-                ><span
-                  ><i class="fa-solid fa-info" style="color: #63268c"></i
-                ></span>
-                <span>About</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#service"
-                ><span
-                  ><i class="fa-solid fa-pen-ruler" style="color: #63268c"></i
-                ></span>
-                <span>Services</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#customer"
-                ><span
-                  ><i class="fa-solid fa-users" style="color: #63268c"></i
-                ></span>
-                <span>Customers</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#reference"
-                ><span
-                  ><i class="fa-solid fa-table-list" style="color: #63268c"></i
-                ></span>
-                <span>References</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact"
-                ><span
-                  ><i
-                    class="fa-sharp fa-solid fa-phone fa-rotate-270"
-                    style="color: #63268c"
-                  ></i
-                ></span>
-                <span>Contact</span></a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
-    <section
-      class="bg-image"
-      style="
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!--! HEADER--NAVBAR -->
+  <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top" style="height: 6rem;">
+    <div class="container d-flex">
+      <a class="navbar-brand" style="border-radius: 30px" href="index.html"><img src="./img/logo.png" alt="" /></a>
+      <button class="navbar-toggler" type="button" style="border: none" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">
+              <span><i class="fa-solid fa-house" style="color: #63268c"></i></span>
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about"><span><i class="fa-solid fa-info" style="color: #63268c"></i></span>
+              <span>About</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service"><span><i class="fa-solid fa-pen-ruler"
+                  style="color: #63268c"></i></span>
+              <span>Services</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#customer"><span><i class="fa-solid fa-users" style="color: #63268c"></i></span>
+              <span>Customers</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reference"><span><i class="fa-solid fa-table-list"
+                  style="color: #63268c"></i></span>
+              <span>References</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"><span><i class="fa-sharp fa-solid fa-phone fa-rotate-270"
+                  style="color: #63268c"></i></span>
+              <span>Contact</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="bg-image" style="
         background-image: url(./img/header-bg.jpeg);
         filter: brightness(0.5) contrast(1) saturate(1) sepia(0.1);
         width: 100%;
         height: 100vh;
-      "
-    >
-      <div
-        id="yazi"
-        class="container d-flex flex-column align-items-center text-white"
-      >
-        <h4 class="fs-2">Welcome</h4>
-        <h1 style="font-size: 3rem">Freelance Web Design</h1>
-        <p class="fs-5 text-white">
-          Leave your mobile device compatible web design, SEO, graphic design
-          and Wordpress jobs to the professionals
-        </p>
-        <a class="btn" href="#contact"
-          ><button type="button" class="btn btn-dark fs-5 p-3 border">
-            Get an offer now
-          </button></a
-        >
-        <div class="mouse">
-          <a href="#about"
-            ><i
-              class="fa-solid fa-computer-mouse fa-2x"
-              style="color: #ffffff"
-            ></i
-          ></a>
+      ">
+    <div id="yazi" class="container d-flex flex-column align-items-center text-white">
+      <h4 class="fs-2">Welcome</h4>
+      <h1 style="font-size: 3rem">Freelance Web Design</h1>
+      <p class="fs-5 text-white">
+        Leave your mobile device compatible web design, SEO, graphic design
+        and Wordpress jobs to the professionals
+      </p>
+      <a class="btn" href="#contact"><button type="button" class="btn btn-dark fs-5 p-3 border">
+          Get an offer now
+        </button></a>
+      <div class="mouse">
+        <a href="#about"><i class="fa-solid fa-computer-mouse fa-2x" style="color: #ffffff"></i></a>
+      </div>
+    </div>
+  </section>
+  <main class="main">
+    <section id="about">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-12 col-md-6">
+            <img id="about" src="./img/about.jpeg" alt="Why me" />
+          </div>
+          <div id="yazilar" class="col-12 col-md-6 p-6" style="text-align: left">
+            <h1 style="font-weight: 400">Why me</h1>
+            <h4 style="font-weight: 400">
+              Hi!
+              <span style="font-style: italic; color: #860174d8">I am Fatih.</span>
+            </h4>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Possimus dignissimos rerum eaque porro id nesciunt sint
+              reprehenderit illo. Ad fugit consequatur, tempora quisquam
+              assumenda labore odit? Ab eligendi doloribus tempora.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Possimus dignissimos rerum eaque porro id nesciunt sint
+              reprehenderit illo. Ad fugit consequatur, tempora quisquam
+              assumenda labore odit? Ab eligendi doloribus tempora.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Possimus dignissimos rerum eaque porro id nesciunt sint
+              reprehenderit illo. Ad fugit consequatur, tempora quisquam
+              assumenda labore odit? Ab eligendi doloribus tempora.
+            </p>
+            <div class="icons">
+              <a href="index.html"><i id="facebook" class="fa-brands fa-facebook-f fa-xl"
+                  style="color: #860174d8"></i></a>
+              <a href="index.html"><i class="fa-brands fa-youtube fa-xl" style="color: #860174d8"></i></a>
+              <a href="index.html"><i class="fa-brands fa-linkedin fa-xl" style="color: #860174d8"></i></a>
+              <a href="index.html"><i class="fa-brands fa-instagram fa-xl" style="color: #860174d8"></i></a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <main class="main">
-      <section id="about">
-        <div class="container">
-          <div class="row d-flex">
-            <div class="col-12 col-md-6">
-              <img id="about" src="./img/about.jpeg" alt="Why me"/>
+    <section id="service" style="text-align: center">
+      <div class="header-section mb-5">
+        <i class="fa-solid fa-arrows-to-dot fa-2xl" style="color: #860174d8"></i>
+        <h2 style="font-weight: 400; letter-spacing: 10px">Services</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <i class="fas fa-object-ungroup"></i>
+              <h5>Web Design</h5>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aliquid consectetur amet reiciendis et officia quisquam
+                repellendus sequi minima quam debitis quasi rem qui facere
+                iure omnis quod quis, hic ab.
+              </p>
             </div>
-            <div id="yazilar" class="col-12 col-md-6 p-6" style="text-align: left;">
-              <h1 style="font-weight: 400;">Why me</h1>
-              <h4 style="font-weight: 400;">Hi! <span style="font-style: italic; color: #860174d8;">I am Fatih.</span></h4>
-
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <i class="fas fa-palette"></i>
+              <h5>Graphic Design</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus dignissimos rerum eaque porro id nesciunt sint
-                reprehenderit illo. Ad fugit consequatur, tempora quisquam
-                assumenda labore odit? Ab eligendi doloribus tempora.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aliquid consectetur amet reiciendis et officia quisquam
+                repellendus sequi minima quam debitis quasi rem qui facere
+                iure omnis quod quis, hic ab.
               </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <i class="fas fa-search"></i>
+              <h5>SEO</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus dignissimos rerum eaque porro id nesciunt sint
-                reprehenderit illo. Ad fugit consequatur, tempora quisquam
-                assumenda labore odit? Ab eligendi doloribus tempora.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aliquid consectetur amet reiciendis et officia quisquam
+                repellendus sequi minima quam debitis quasi rem qui facere
+                iure omnis quod quis, hic ab.
               </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <i class="fab fa-wordpress"></i>
+              <h5>Wordpress</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus dignissimos rerum eaque porro id nesciunt sint
-                reprehenderit illo. Ad fugit consequatur, tempora quisquam
-                assumenda labore odit? Ab eligendi doloribus tempora.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aliquid consectetur amet reiciendis et officia quisquam
+                repellendus sequi minima quam debitis quasi rem qui facere
+                iure omnis quod quis, hic ab.
               </p>
-              <div class="icons">
-                <a href="index.html"><i id="facebook" class="fa-brands fa-facebook-f fa-xl" style="color: #860174d8;"></i></a>
-                <a href="index.html"><i class="fa-brands fa-youtube fa-xl" style="color: #860174d8;"></i></a>
-                <a href="index.html"><i class="fa-brands fa-linkedin fa-xl" style="color: #860174d8;"></i></a>
-                <a href="index.html"><i class="fa-brands fa-instagram fa-xl" style="color: #860174d8;"></i></a>
-              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-6">
+            <div class="card">
+              <i class="fas fa-magic"></i>
+              <h5>Responsive Design</h5>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aliquid consectetur amet reiciendis et officia quisquam
+                repellendus sequi minima quam debitis quasi rem qui facere
+                iure omnis quod quis, hic ab.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-6">
+            <div class="card">
+              <i class="fab fa-twitter"></i>
+              <h5>Social Media</h5>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aliquid consectetur amet reiciendis et officia quisquam
+                repellendus sequi minima quam debitis quasi rem qui facere
+                iure omnis quod quis, hic ab.
+              </p>
             </div>
           </div>
         </div>
-      </section>
-      <section id="service" style="text-align: center;">
-        <div class="header-section mb-5">
-          <i class="fa-solid fa-arrows-to-dot fa-2xl" style="color: #860174d8;"></i>
-          <h2 style="font-weight: 400; letter-spacing: 10px;">Services</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="card">
-                <i class="fas fa-object-ungroup"></i>
-                <h5>Web Design</h5>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Aliquid consectetur amet reiciendis et officia quisquam
-                  repellendus sequi minima quam debitis quasi rem qui facere
-                  iure omnis quod quis, hic ab.
-                </p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="card">
-                <i class="fas fa-palette"></i>
-                <h5>Grafik Design</h5>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Aliquid consectetur amet reiciendis et officia quisquam
-                  repellendus sequi minima quam debitis quasi rem qui facere
-                  iure omnis quod quis, hic ab.
-                </p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="card">
-                <i class="fas fa-search"></i>
-                <h5>SEO</h5>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Aliquid consectetur amet reiciendis et officia quisquam
-                  repellendus sequi minima quam debitis quasi rem qui facere
-                  iure omnis quod quis, hic ab.
-                </p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="card">
-                <i class="fab fa-wordpress"></i>
-                <h5>Wordpress</h5>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Aliquid consectetur amet reiciendis et officia quisquam
-                  repellendus sequi minima quam debitis quasi rem qui facere
-                  iure omnis quod quis, hic ab.
-                </p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-6">
-              <div class="card">
-                <i class="fas fa-magic"></i>
-                <h5>Responsive Tasarım</h5>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Aliquid consectetur amet reiciendis et officia quisquam
-                  repellendus sequi minima quam debitis quasi rem qui facere
-                  iure omnis quod quis, hic ab.
-                </p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-6">
-              <div class="card">
-                <i class="fab fa-twitter"></i>
-                <h5>Sosyal Medya</h5>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Aliquid consectetur amet reiciendis et officia quisquam
-                  repellendus sequi minima quam debitis quasi rem qui facere
-                  iure omnis quod quis, hic ab.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="customer">
-        <div class="cust cust1">
-          <i class="fa-solid fa-arrows-to-dot fa-2xl" style="color: #860174d8;"></i>
-          <h2>What did our customers say?</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, asperiores!</p>
-        </div>
-        <div class="cust cust2">
-          <img src="./img/user-1.jpeg" alt="">
-          <p><em style="color: rgb(78, 74, 74);"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum animi voluptates repellendus iste enim quia molestiae eaque consequatur. Inventore excepturi quis dignissimos corrupti voluptas ducimus doloribus veniam, natus illo quasi!</em></p>
-          <p style="color: rgb(78, 74, 74);">-Ali <span style="color: black; font-weight: 600;">Gel</span></p>
-        </div>
-      </section>
-      <section id="reference">
-        <div>
-          <i class="fa-solid fa-arrows-to-dot fa-2xl" style="color: #860174d8;"></i>
-          <h2>References</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <nav>
-          <lu>
-            <li><a href="index.html" style="color: #ffffff;">All</a></li>
-            <li><a href="index.html">Web design</a></li>
-            <li><a href="index.html">Graphic design</a></li>
-            <li><a href="index.html">SEO</a></li>
-            <li><a href="index.html">Wordpress</a></li>
-          </lu>
-        </nav>
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="card">
-                <img src="./img/work-1.jpeg" alt="Project name">
-                <h3>Project name</h3>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="card">
-                <img src="./img/work-2.jpeg" alt="Project name">
-                <h3>Project name</h3>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="card">
-                <img src="./img/work-3.jpeg" alt="Project name">
-                <h3>Project name</h3>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="card">
-                <img src="./img/work-4.jpeg" alt="Project name">
-                <h3>Project name</h3>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-6">
-              <div class="card">
-                <img src="./img/work-5.jpeg" alt="Project name">
-                <h3>Project name</h3>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-6">
-              <div class="card">
-                <img src="./img/work-6.jpeg" alt="Project name">
-                <h3>Project name</h3>
-              </div>
-            </div>
-            <!--! <div class="card text-bg-dark">
-              <img src="..." class="card-img" alt="...">
+      </div>
+    </section>
+    <section id="customer">
+      <div class="cust cust1">
+        <i class="fa-solid fa-arrows-to-dot fa-2xl" style="color: #860174d8"></i>
+        <h2>What did our customers say?</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi,
+          asperiores!
+        </p>
+      </div>
+      <div class="cust cust2">
+        <img src="./img/user-1.jpeg" alt="" />
+        <p>
+          <em style="color: rgb(78, 74, 74)">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
+            animi voluptates repellendus iste enim quia molestiae eaque
+            consequatur. Inventore excepturi quis dignissimos corrupti
+            voluptas ducimus doloribus veniam, natus illo quasi!</em>
+        </p>
+        <p style="color: rgb(78, 74, 74)">
+          -Ali <span style="color: black; font-weight: 600">Gel</span>
+        </p>
+      </div>
+    </section>
+    <section id="reference">
+      <div>
+        <i class="fa-solid fa-arrows-to-dot fa-2xl mt-5" style="color: #860174d8"></i>
+        <h2>References</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <nav>
+        <lu>
+          <li><a href="index.html" style="color: #ffffff">All</a></li>
+          <li><a href="index.html">Web design</a></li>
+          <li><a href="index.html">Graphic design</a></li>
+          <li><a href="index.html">SEO</a></li>
+          <li><a href="index.html">Wordpress</a></li>
+        </lu>
+      </nav>
+      <div class="container">
+        <div class="row d-flex justify-content-center ">
+          <div class="card ref col-12 col-sm-6 col-md-4 col-lg-3" >
+              <img src="./img/work-1.jpeg" class="card-img" alt="">
               <div class="card-img-overlay">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                <h5 class="card-title">Project name</h5>
               </div>
-            </div> -->
-
+            </div>
+            <div class="card ref col-12 col-sm-6 col-md-4 col-lg-3">
+              <img src="./img/work-2.jpeg" class="card-img" alt="">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Project name</h5>
+              </div>
+            </div>
+            <div class="card ref col-12 col-sm-6 col-md-4 col-lg-3">
+              <img src="./img/work-3.jpeg" class="card-img" alt="">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Project name</h5>
+              </div>
+            </div>
+            <div class="card ref col-12 col-sm-6 col-md-4 col-lg-3">
+              <img src="./img/work-4.jpeg" class="card-img" alt="">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Project name</h5>
+              </div>
+            </div>
+            <div class="card ref col-12 col-sm-6 col-md-4 col-lg-3">
+              <img src="./img/work-5.jpeg" class="card-img" alt="">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Project name</h5>
+              </div>
+            </div>
+            <div class="card ref col-12 col-sm-6 col-md-4 col-lg-3">
+              <img src="./img/work-6.jpeg" class="card-img" alt="">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Project name</h5>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" style="margin-top: 4rem;">
+      <div class="container">
+        <div>
+          <i class="fa-solid fa-arrows-to-dot fa-2xl mt-5" style="color: #860174d8"></i>
+          <h2>Contact</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="row p-5">
+          <div class="col-12 col-sm-4">
+            <i class="fas fa-phone fa-xl" style="color: #860174d8"></i>
+            <h5>Telefon</h5>
+            <a href="tel:+905555555555">+90(555)555 55 55</a>
+          </div>
+          <div class="col-12 col-sm-4">
+            <i class="fab fa-whatsapp fa-xl" style="color: #860174d8"></i>
+            <h5>Whatsapp</h5>
+            <a href="https://wa.me/905555555555" target="_blank">+90(555)555 55 55</a>
+          </div>
+          <div class="col-12 col-sm-4">
+            <i class="fas fa-envelope fa-xl" style="color: #860174d8"></i>
+            <h5>Email</h5>
+            <a href="mailto:info@lorem.com">info@lorem.com</a>
           </div>
         </div>
+        <form class="row d-flex justify-content-center g-4">
+          <div class="col-12 col-sm-6">
+            <input type="text" placeholder="Name">
+          </div>
+          <div class="col-12 col-sm-6">
+            <input type="email" placeholder="E-Mail">
+          </div>
+          <div class="col-12">
+            <input type="text" placeholder="Topic">
+          </div>
+          <div class="col-12">
+            <textarea style="height: 5rem; width: 100%; padding:1rem; border-radius: 15px;"  type="text" placeholder="Comment"></textarea>
+          </div>
+        
+          <div class="col-12">
+            <button class="text-white fs-3">Send message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-dark text-center" style="padding: 2rem;">
+    <div class="icons" style="margin-bottom: 2rem;">
+      <a href="index.html"><i id="facebook" class="fa-brands fa-facebook-f fa-xl"
+          style="color: white"></i></a>
+      <a href="index.html"><i class="fa-brands fa-youtube fa-xl" style="color: white"></i></a>
+      <a href="index.html"><i class="fa-brands fa-linkedin fa-xl" style="color: white"></i></a>
+      <a href="index.html"><i class="fa-brands fa-instagram fa-xl" style="color: white"></i></a>
+    </div>
+    <div class="copyright text-white" style="margin-bottom: 2rem;">©2021 copyright by Lorem</div>
+  </footer>
+  
+  <div id="b1" class="button-fixed">
+    <a href="#"><i class="fa-solid fa-moon fa-2xl" style="color: white;"></i></a>
+  </div>
+  <div id="b2" class="button-fixed">
+    <a href="index.html"><i class="fa-solid fa-arrow-up fa-2xl" style="color: white;"></i></a>
+  </div>
 
-      </section>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+</body>
 
-
-
-
-    </main>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>
